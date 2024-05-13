@@ -19,13 +19,13 @@ export function App() {
         </Heading>
 
         <Text size="lg" className="text-gray-400 mt-1">
-          Faça login e comece a usar!
+          Login to start using!
         </Text>
       </header>
 
       <form className="flex flex-col gap-4 items-stretch w-full max-w-sm mt-10">
         <label htmlFor="email" className="flex flex-col gap-3">
-          <Text className="font-semibold">Endereço de e-mail</Text>
+          <Text className="font-semibold">E-mail</Text>
           <TextInput.Root>
             <TextInput.Icon>
               <Envelope />
@@ -36,7 +36,7 @@ export function App() {
         </label>
 
         <label htmlFor="password" className="flex flex-col gap-3">
-          <Text className="font-semibold">Sua senha</Text>
+          <Text className="font-semibold">Password</Text>
           <TextInput.Root>
             <TextInput.Icon>
               <Lock />
@@ -48,18 +48,18 @@ export function App() {
 
         <label htmlFor="remember" className="flex items-center gap-2">
           <Checkbox id="remember" />
-          <Text size="sm" className="text-gray-200">Lembrar de mim por 30 dias</Text>
+          <Text size="sm" className="text-gray-200">Remember me for 30 days.</Text>
         </label>
 
-        <Button type="submit" className="mt-4">Entrar na plataforma</Button>
+        <Button type="submit" className="mt-4">Login</Button>
       </form>
 
       <footer className="flex flex-col items-center gap-4 mt-8">
         <Text asChild size="sm">
-          <a href="" className="text-gray-400 underline hover:text-gray-200">Esqueceu sua senha?</a>
+          <a href="" className="text-gray-400 underline hover:text-gray-200">Forgo password?</a>
         </Text>
         <Text asChild size="sm">
-          <a href="" className="text-gray-400 underline hover:text-gray-200">Não possui conta? Crie uma agora!</a>
+          <a href="" className="text-gray-400 underline hover:text-gray-200">Create an account now!</a>
         </Text>
       </footer>
     </div>
